@@ -5,7 +5,6 @@ pipeline {
         stage('Verify Branch connection') {
             steps {
                 echo "$GIT_BRANCH"
-echo "Saad_Testing"
             }
         }
     }
